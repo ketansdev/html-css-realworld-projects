@@ -20,13 +20,16 @@ a {
 /* Navbar */
 
 header {
+  width: 100%;
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
   height: 80px;
   box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
   margin: 0 0 10px 0;
+  overflow-x: hidden;
 }
 
 .myntra_home {
@@ -45,8 +48,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   gap: 1rem;
-  min-width: 500px;
-  margin: 0 5px
+  flex-shrink: 0;
 }
 
 .nav_bar a {
@@ -70,12 +72,13 @@ header {
 }
 
 .search_bar {
-  min-width: 200px;
-  width: 30%;
+  max-width: 500px;
+  min-width: 400px;
   height: 40px;
   line-height: 0;
   display: flex;
   align-items: center;
+  margin: 0 15px;
 }
 
 .search_icon {
@@ -100,7 +103,8 @@ header {
 
 .action_bar{
     display: flex;
-    min-width: 200px;
+    gap: 1rem;
+    flex-shrink: 0;
     justify-content: space-around;
 }
 
@@ -118,4 +122,9 @@ header {
 .banner_image{
     width: 100%;
     padding: 0 60px;
+}
+
+.banner_image2{
+  width: 100%;
+  margin: 20px 0;
 }
