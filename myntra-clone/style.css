@@ -30,6 +30,9 @@ header {
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
   margin: 0 0 10px 0;
   overflow-x: hidden;
+
+  position: fixed;
+  top: 0;
 }
 
 .wrapper1 {
@@ -126,6 +129,10 @@ header {
 }
 
 /* Main */
+
+main{
+  margin-top: 80px;
+}
 
 .side_static_offer {
   color: #fff;
