@@ -170,3 +170,19 @@ header {
   object-fit: contain; /* ya cover */
   flex-shrink: 1;
 }
+
+
+.shop_category_items{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  gap:0;
+  width: 100%;
+  place-items: center;
+  justify-items: center;
+}
+
+.shop_category_items img{
+  width: 100%;
+  height: auto;
+  display: block;  
+}
