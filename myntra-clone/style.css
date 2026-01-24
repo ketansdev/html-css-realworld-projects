@@ -55,10 +55,6 @@ header {
   margin: 0 3rem;
 }
 
-.action_bar {
-  /* margin-right: rem; */
-}
-
 .nav_bar {
   display: flex;
   justify-content: space-evenly;
@@ -156,7 +152,6 @@ header {
 .category_items {
   width: 100%;
   display: flex;
-  /* justify-content: center; */
   flex-wrap: nowrap;
   box-sizing: border-box;
   padding-top: 20px;
