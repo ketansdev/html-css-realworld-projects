@@ -2,4 +2,4 @@
 
 - This project focuses on desktop layout accuracy. Mobile responsiveness is a planned improvement.
 
-![Myntra Clone Output](/myntra-clone/myntra-website-clone.png.png)
+![Myntra Clone Output](/myntra-clone/myntra-website-clone.png)
