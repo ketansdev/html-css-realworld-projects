@@ -224,7 +224,7 @@ main {
   background-color: #f5f1eb;
 }
 
-#special .content {
+.ten .content {
   color: #00754a;
   font-size: 1rem;
 }
@@ -242,6 +242,24 @@ main {
 #menu-order-now:hover {
   background: rgba(192, 240, 204, 0.4);
 }
+
+.eleven div {
+  font-size: 1rem;
+}
+
+#rewards {
+  background-color: #f5f1eb;
+}
+
+#rewards .content {
+  color: #00754a;
+}
+
+#menu-learn-more {
+  background-color: #006342;
+  color: #fff;
+}
+
 /* Responsive */
 
 /* Navbar */
@@ -327,6 +345,21 @@ main {
     order: 10;
   } /* content */
 
+  .eleven {
+    order: 12;
+  }
+
+  .twelve {
+    order: 11;
+  }
+
+  .thirteen {
+    order: 13;
+  }
+
+  .fourteen {
+    order: 14;
+  }
   .grid .box {
     margin: 0;
   }
